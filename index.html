@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox 01</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Flex</h1>
+
+        <div class="contenedor-flex">
+            <div class="elemento-flex elemento-1">
+                <h2>Crece de acuerdo al contenido</h2>
+            </div>
+            <div class="elemento-flex elemento-2">
+                <h2>Servicio 2</h2>
+            </div>
+            <div class="elemento-flex elemento-3">
+                <h2>Servicio 3</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <h1>Flexbox Grow</h1>
+
+        <div class="contenedor-flex">
+            <div class="elemento-flex-grow elemento-1">
+                <h2>Servicio 1</h2>
+            </div>
+            <div class="elemento-flex-grow elemento-2">
+                <h2>Servicio 2</h2>
+            </div>
+            <div class="elemento-flex-grow elemento-3">
+                <h2>Servicio 3</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="contenedor">
+        <h1>Flexbox Grow dar valores flex-grow: 1 2 y 3</h1>
+        <h3>Con esto el ancho variará de acuerdo a lo que tenga de width border padding </h3>
+        <div class="contenedor-flex">
+            <div class="elemento-flex-growvalores elemento-1">
+                <h2>Servicio 1</h2>
+            </div>
+            <div class="elemento-flex-growvalores elemento-2">
+                <h2>Servicio 2</h2>
+            </div>
+            <div class="elemento-flex-growvalores elemento-3">
+                <h2>Servicio 3</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <h1>Flexbox flex-shrink </h1>
+        <h3>flex-shrink: 1 2 y 3; width: 500px; Al mover la resolución el valor mas grande obtendra menos ancho </h3>
+        <div class="contenedor-flex">
+            <div class="elemento-flex-shrink elemento-1">
+                <h2>Servicio 1</h2>
+            </div>
+            <div class="elemento-flex-shrink elemento-2">
+                <h2>Servicio 2</h2>
+            </div>
+            <div class="elemento-flex-shrink elemento-3">
+                <h2>Servicio 3</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <h1>Flexbox flex-basis </h1>
+        <h3>flex-basis: 50%; al elemento 2. Tendr como mínimo 50% </h3>
+        <h4>es posible agregar flex-grow:1; a todos dará un mejor resultado</h4>
+        <div class="contenedor-flex">
+            <div class="elemento-flex-basis elemento-1">
+                <h2>Servicio 1</h2>
+            </div>
+            <div class="elemento-flex-basis elemento-2">
+                <h2>Servicio 2</h2>
+            </div>
+            <div class="elemento-flex-basis elemento-3">
+                <h2>Servicio 3</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <h1>ShortHand flex </h1>
+        <h3>flex: toma 3 parametros: 1) flex-grow 2) flex-shrink 3) flex-basis </h3>
+        <h4></h4>
+        <div class="contenedor-flex">
+            <div class="elemento-flex-sharhands elemento-1">
+                <h2>Servicio 1</h2>
+            </div>
+            <div class="elemento-flex-sharhands elemento-2">
+                <h2>Servicio 2</h2>
+            </div>
+            <div class="elemento-flex-sharhands elemento-3">
+                <h2>Servicio 3</h2>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
